@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.parent div{
+    padding: 20px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+@media(max-width:767px){
+    
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .parent div{
+    width: calc(50% - 10px);
+    }
+
+}
+@media(min-width:992px){
+width: calc(25% - 5px);
+}
+@media(min-width:1200px){
+
+}
+@media(min-width:1400px){
+
+}
